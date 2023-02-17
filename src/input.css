@@ -1,0 +1,8 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+.active-link {
+    @apply border-b-2 border-slate-900 md:border-white dark:text-green-500 dark:border-green-500
+}
